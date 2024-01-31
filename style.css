@@ -1,0 +1,31 @@
+.custom-button{
+    transition: box-shadow 0.3s ease;
+   
+      
+}
+.custom-button:hover{
+      box-shadow:  0 0  20px 1px rgba(193, 188, 188, 0.699) ;
+     
+}
+.custom-image{
+    transform: background-color 0.3s ease;
+}
+.custom-image:hover{
+    background-color:  rgb(97, 113, 193);
+}
+.moveimage{
+     animation:10s infinite linear moveCompany;
+}
+@keyframes moveCompany{
+     0%{
+        top:0;
+     }
+     100%{
+        top:-50%;
+      }
+
+}
+
+.cctaSection{
+     background-size: 100% 100% ;
+}
